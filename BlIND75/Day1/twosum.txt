@@ -1,0 +1,29 @@
+INFORMATION-
+This is an array problem of easy type which is in leetcode 
+which i solved on 23/01/2026 on time of 7:42PM 
+
+PROBLEM-
+Given an array of elements and a given number as our target we need to acheive the target
+For example-nums[]={2,4,5,6,7} and the target=8
+brute force soltuion take two loops i and j and then i will be on first element and after round of 
+j looping all the elements i will be shifted to next which is the second element and the thing is 
+with this approach we will get the answer but the time complxity will be n^2 which is because of 
+usage of 2  nested loops so what is the optimal best soltuion.
+
+SOLUTION
+use one array and use the concept of HashMap (HashMap is basically a concept where its format is 
+value ,index this is the format and HashMap is used as it remembers like which value was seen and 
+where)so if the HashMap has seen the value then get the value using get of HashMap else put in the 
+Map which we have create(in our code its "hi")
+
+CODE EXPLANATION
+[1]import hashmap library
+[2]then the leetcode initialzation
+[3]then the next thing is HashMap creation and here it is stored in a hashmap called as hi
+[4]use the for loop and then difference between the current element and the target is calcualted and 
+stored in the varaible needed
+[5]then next we use if the needed value is present in the hi hashmap then we will get its value and 
+return the new int alongisde the get its index value using the "get"functionality of the hashmap.
+[6]if not in the map then we will use the put the value which is nums[i] and its index value also
+using the "put"functionality of the hashmap
+[7]atlast we return the new int and also the blank curly bracket{}.
