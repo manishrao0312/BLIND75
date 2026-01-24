@@ -1,0 +1,3 @@
+the same as two sum thing but here instead of integer and integer returning we use the concept of the
+intger and boolean so we need to return whether its true or false and to check we use the concept
+of if(map.containsKey(nums[i]))
