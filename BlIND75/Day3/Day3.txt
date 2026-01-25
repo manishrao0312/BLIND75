@@ -1,0 +1,7 @@
+Two Pointer Approach
+
+Consider the String s where left=0 and right=String length-1 and then we use a while loop where(left<right) and we r using left<right bcuz
+if left==right then its the same character and if left>right the it has overridden so we use left<right and inside the loop we initialize
+char l=s.CharAt(left) and the same for char r=s.CharAt(right) for individual character and after that we check if the current character
+is letter or a digit and if not we then do left++ and the same in right we do right-- and after the punctuation validation we do 
+the case conversion to lowercase lettters and then check if left=right we do left++ and right-- and if not return false and then left++ right-- 
