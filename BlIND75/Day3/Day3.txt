@@ -1,3 +1,5 @@
+[1]isAnalgram
+
 Two Pointer Approach
 
 Consider the String s where left=0 and right=String length-1 and then we use a while loop where(left<right) and we r using left<right bcuz
@@ -5,3 +7,13 @@ if left==right then its the same character and if left>right the it has overridd
 char l=s.CharAt(left) and the same for char r=s.CharAt(right) for individual character and after that we check if the current character
 is letter or a digit and if not we then do left++ and the same in right we do right-- and after the punctuation validation we do 
 the case conversion to lowercase lettters and then check if left=right we do left++ and right-- and if not return false and then left++ right-- 
+
+
+[2]best time to buy and sell stock
+
+Two pointer Approach
+
+first we take minimum price as Integer.Max_Value and our profit at first will be zero ,and the we yse for loop for the arrays and we declare
+price:prices(which can also be written as for(int i=0;i<prices.length;i++))and inside the for loop we check if the price is less than the 
+minimum price if less then we initilazie the ew umber as minimum price and else we calculate the maxprofit using math.max(maxprofit,price-
+minimum price) and return maxprofit
