@@ -1,0 +1,17 @@
+[1]maxSubArray
+
+ex:[1,2,0,-1,4,5]
+output=9
+
+we r using just normal array logic not any Approach like the Two pointer Approach or any hashmap
+so this is just initilazing the currentsum and maxsum to the first element and then we use the for 
+loop to loop from 1th index and loop till the end of the string and then also we inside the loop
+we calculate the currentsum by using the max function and do max of(nums[i],currentsum+nums[i])
+and next is we calculate maxsum which we also use the max function and do the max of
+(currentsum,maxsum) and then we return the max sum
+
+[2]product except self
+
+this also involves basic array no use of two pointers or hashmap we decalre a new array and then loop
+and then loop around the given nums array and then store it and then we do it first we iterate on the left
+and then we iterate on right  
