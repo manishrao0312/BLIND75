@@ -1,0 +1,24 @@
+so today is day05 of blind75 i have been consistent on the dsa sheet so today solved are of 3 problems
+
+[1]missing Number
+
+example=[0,2,3,4,5,6,7]
+output=1
+
+use a single loop over arrays and expected=0 and sum=0  and also the just create the arrays where expected will 
+be n*(n+1)/2 and for the number of arrays we calcuate the sum using sum=sum+nums[i]  and do the difference of expected-sum
+
+
+[2]longest substring
+
+example:abcdba
+output=4
+
+use of hashmap and also one loop and using of put and max function 
+
+[3]group anagram
+
+example=['eat,'tan','ate','ate','nat','bat]
+output=[['bat],['nat','tan'],['ate','tea','eat']]
+
+usage of hashmap and also stringlist for the seperate words grouping
