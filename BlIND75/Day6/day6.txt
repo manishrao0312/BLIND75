@@ -1,0 +1,8 @@
+Date:28/01/2026
+
+Topic:- linkdlist
+
+so i had feared linkedlist from my coding days i never really tried to touch it becuase of the 
+usage of pointers and being able to build logic but coding it actually had me lots of difficult
+but today i decided to go against and face my fears
+
