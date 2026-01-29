@@ -1,0 +1,2 @@
+the same concepts of linkdelist but more round about it learned merging the linkdelist
+and removing the nth element from the last of the nodes
