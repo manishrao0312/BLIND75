@@ -1,0 +1,6 @@
+Today is day 08 where i solved the last bit of the linkedlist problem
+ i solved reorderlist
+ where ex:[1->2->3->4]
+ output:-1-4-2-3
+
+ first split into half and then reverse the second half of the list and then merge it simultaneously
