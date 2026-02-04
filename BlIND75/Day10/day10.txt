@@ -1,0 +1,16 @@
+so i did the problem o 3rd february but didnt git pushed it 
+
+[1]reverse bits
+ex:12345678
+output:1912276176
+
+initilaize a variable called as a result to store the reverse of the given bits and then loop over
+the converted bits amd of last bit is 0 and then then store 0 and if 1 then store 1
+
+[2]number of 1 bits
+
+same a sthe above logic 
+
+
+Note:the notebale part of the above 2 problems is we r using the concept of shfiting which is done
+using the   N>>>1 which means shift left   
